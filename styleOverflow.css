@@ -1,0 +1,7 @@
+div {
+    background-color: #F0FFF5;
+    width: 200px;
+    height: 50px;
+    border: 1pc dottet black;
+    overflow: auto;
+}

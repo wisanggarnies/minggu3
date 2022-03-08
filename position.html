@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS position</title>
+        <link rel="stylesheet" type="text/css" href="">
+    </head>
+    <body>
+        <h2>Position: STATIC</h2>
+        <p>
+            Position stattic digunakan untuk mengatur element menjadi statis secara default.
+            Element akan mengikuti posisi berdasrkan alur normal web.
+            Element tidak di pengaruhi oleh properti seperti top, botton, left dan right.
+        </p>
+        <div class="static">
+            Element div ini memiliki posisi "static"
+        </div>
+        <h2>Position: RELATIVE</h2>
+        <p>Elemen dengan posisi relative diposisikan realtif terhadap posisi normal</p>
+        <div class="relative">
+            Elemen div ini memiliki posisi "relative"
+        </div>
+        <h2>Position: FIXED</h2>
+        <p>Sebuah elemen dengan position fixed; diposisikan realtif terhadap viewport yang berarti selalu tetap di tempat yang sama bahkan jika halaman di scrool:</p>
+        <div class="fixed">
+            elemen div ini memiliki posisi "fixed"
+        </div>
+        <h2>Position: ABSOLUTE</h2>
+        <p>Sebuah elemen dengan posisi: absolute diposisikan relatif terhadap elemen lain yang terdekat, bukan relatif terhadap viewport</p>
+        <div class="relative2">Elemen div ini memiliki posisi "relative"
+            <div class="absolute">Elemen div ini memiliki posisi "absolute"</div>
+        </div>
+        <h2>Position: STICKY</h2>
+        <p>Coba lakukan <b>scroll</b> sampai akhir halaman</p>
+        <div class="sticky">I am sticky!</div>
+        <div style="padding-bottom: 2000px;">
+            <p>Isilah dengan paragraf apapun</p>
+            <p>Bagian ini untuk mencoba posisi sticky</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </body>
+</html>
